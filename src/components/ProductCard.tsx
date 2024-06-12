@@ -91,8 +91,8 @@ const ProductsCard: React.FC<propsType> = ({
       <div className='space-y-2 py-2'>
         <h2 className='text-accent font-medium text-center'>{title}</h2>
         <p className='text-gray-500 max-w-[150px]'>{desc}</p>
-        <div>{generateRating(rating)}</div>
-        <div className='font-bold flex gap-4 text-center'>
+        <div className=''>{generateRating(rating)}</div>
+        <div className='text-accent font-medium text-center text-gray-500'>
           ${price}
           <del></del>
         </div>

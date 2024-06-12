@@ -18,20 +18,20 @@ export const Hero = () => {
         {
             id: 0,
             img: '/corten.jpg',
-            title: '1:07:11',
-            mainTitle: "",
+            title: 'Rust accelerator',
+            mainTitle: "Guaranteed results within one hour on all types of oxidizable metals such as (Corten, iron, crude steel...)",
         },
         {
             id: 1,
-            img: '/1.png',
-            title: '',
-            mainTitle: "",
+            img: '/corten.jpg',
+            title: 'Rust accelerator',
+            mainTitle: "Guaranteed results within one hour on all types of oxidizable metals such as (Corten, iron, crude steel...)",
         },
         {
             id: 2,
-            img: '/2.jpg',
-            title: '',
-            mainTitle: "",
+            img: '/corten.jpg',
+            title: 'Rust accelerator',
+            mainTitle: "Guaranteed results within one hour on all types of oxidizable metals such as (Corten, iron, crude steel...)",
         },
     ];
 

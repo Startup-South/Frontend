@@ -13,7 +13,7 @@ const HeaderMain = () => {
     <div style={Styles} className='border-b border-0093ff py-6'>
       <div className='container sm:flex justify-between items-center'>
         <div className='font-bold text-4xl text-center pb-4 sm:pb-0 text-blackish'>
-            LOGO
+            <img className='h-10' src="/Logo4.png" alt="" />
         </div>
 
         <div className='w-full sm:w-[300px] md:w-[70%] relative'>
