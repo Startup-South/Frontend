@@ -11,7 +11,7 @@ function HeaderTop() {
 
     return (
         <div style={Styles} className='border-b border-blue-200 hidden sm:block'>
-            <div className='container py-4'>
+            <div className='container py-2'>
                 <div className='flex justify-between items-center'>
                     <div className='hidden lg:flex gap-1'>
                         {/*<div className="header_top__icon_wrapper">

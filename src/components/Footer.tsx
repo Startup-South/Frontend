@@ -11,12 +11,12 @@ const Footer = () => {
             <img className='text-2xl cursor-pointer hover:text-orange-600' src="/Logo3.png" alt="logo" width={150} height={150}/>
         </p>
         <div className='flex gap-6 pb-5'>
-            <link rel="stylesheet" href="https://www.instagram.com/corten.plus" icon="{FaInstagram}"/>
+            <link rel="stylesheet" icon="{FaInstagram}"/>
             {/*section pour icone*/}
-            <FaInstagram href='https://www.instagram.com/corten.plus' className='text-2xl cursor-pointer hover:text-orange-600'/>
-            <FaFacebook href='https://facebook.com/cortenplus' className='text-2xl cursor-pointer hover:text-blue-600'/>
-            <FaLinkedin href='https://www.instagram.com/corten.plus' className='text-2xl cursor-pointer hover:text-blue-600'/>
-            <FaYoutube href='https://www.instagram.com/corten.plus' className='text-2xl cursor-pointer hover:text-red-600'/>
+            <FaInstagram className='text-2xl cursor-pointer hover:text-orange-600'/>
+            <FaFacebook className='text-2xl cursor-pointer hover:text-blue-600'/>
+            <FaLinkedin className='text-2xl cursor-pointer hover:text-blue-600'/>
+            <FaYoutube className='text-2xl cursor-pointer hover:text-red-600'/>
         </div>
       </div>
       <div className='p-5'>

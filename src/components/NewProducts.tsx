@@ -43,9 +43,9 @@ const NewProducts = () => {
   return (
     <div>
         <div className='container pt-16'>
-            <h2 className='text-center font-medium text-2xl pb-4'>FEATURED PRODUCTS
-        </h2> <br /><br />
-        <div className='grid grid-cols-1 text-center place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-col-3 xl:grid-cols-4 gap-10 xl:gap-x-20 xl:gap-y-10'>
+            <h4 className='text-center font-medium text-2xl pb-4'>FEATURED PRODUCTS
+        </h4> <br /><br />
+        <div className='grid grid-cols-1 text-center place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-col-3 xl:grid-cols-4 gap-10 xl:gap-x-20 xl:gap-y-10 cursor-pointer'>
             {productsData.map((item, index) => (
                 <ProductCard
                 key={index}

@@ -76,7 +76,7 @@ const ProductsCard: React.FC<propsType> = ({
   price,
 }) => {
   return (
-    <div className='px-4 border border-gray-200 rounded-xl max-w-[400px]'>
+    <div className='px-4 border border-neutral-300 rounded-xl max-w-[400px] hover:bg-gray-200 transition-color duration-200 delay-100 transform transition-all hover:scale-90'>
       <div>
         <Image className='w-full h-auto'
         src={img}

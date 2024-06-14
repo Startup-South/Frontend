@@ -26,7 +26,7 @@ const Slide:React.FC<propsType> = ({img, title, mainTitle}) => {
         </button>
       </div>
 
-      <Image className='w-full h-full md:h-auto rounded-xl object-cover object-center md:object-left-bottom duration-[2s]' alt="banner" width={5000} height={5000} src={img}  />
+      <Image className='w-full h-full md:h-auto rounded-xl object-cover md:object-left-bottom duration-[2s]' alt="banner" width={5000} height={5000} src={img}  />
 
     </div>
   );
