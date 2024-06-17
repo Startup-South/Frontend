@@ -2,8 +2,12 @@ import Link from 'next/dist/client/link'
 import React from 'react'
 
 const Navbar = () => {
+  const Styles={
+    backgroundColor: '#0093ff',
+}
+
   return (
-    <div className='hidden lg:block'>
+    <div style={Styles} className='hidden sm:block'>
       <div className='container'>
         <div className='flex w-fit gap-10 mx-auto font-bold py-4 text-blackish'>
             <Link className='navbar__link relative' href='#'>HOME</Link>

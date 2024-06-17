@@ -10,11 +10,13 @@ function HeaderTop() {
     }
 
     return (
-        <div style={Styles} className='border-b border-blue-200 hidden sm:block'>
+        <div style={Styles} className='hidden sm:block'>
             <div className='container py-2'>
                 <div className='flex justify-between items-center'>
+                   
                     <div className='hidden lg:flex gap-1'>
-                        {/*<div className="header_top__icon_wrapper">
+                         {/* ICONE SUR HEADER TOP
+                       <div className="header_top__icon_wrapper">
                         <FaFacebook />
                         </div>
                         <div className="header_top__icon_wrapper">
@@ -25,9 +27,11 @@ function HeaderTop() {
                         </div>
                         <div className="header_top__icon_wrapper">
                         <FaLinkedin />
-                        </div>*/}
+                        </div>
+                        */}
                     </div>
-                    <div className='text-white text-[18px]'>
+                    
+                    <div className='text-white text-[16px]'>
                         <b>100% SUCCESS RATE | MONEY-BACK GUARANTEE | EXPRESS DELIVERY</b>
                     </div>
                    <div className="flex gap-4">
