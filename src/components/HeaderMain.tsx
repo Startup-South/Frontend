@@ -15,19 +15,19 @@ const HeaderMain = () => {
     <div style={Styles} className='border-0093ff py-6'>
       <div className='container sm:flex justify-between items-center'>
         <div className='font-bold text-4xl text-center pb-4 sm:pb-0 text-blackish'>
-        <a href="#" class="">
+        <a href="#">
             <img className='h-12 w-auto' src="/Logo4.png" alt=""/>
         </a>
         </div>
 
 
           <div className='flex items-center w-fit gap-10 mx-auto font-bold py-4 text-white space-x-5'>
-              <Link className='navbar__link relative' href='#'>HOME</Link>
-              <Link className='navbar__link relative' href='#'>SHOP</Link>
-              <Link className='navbar__link relative' href='#'>FAQS</Link>
-              <Link className='navbar__link relative' href='#'>CONTACT</Link>
-              <Link className='navbar__link relative' href='#'>MY ACCOUNT</Link>
-              <Link className='navbar__link relative' href='#'>BLOG</Link>
+             <Link className='navbar__link relative' href='/'>HOME</Link>
+            <Link className='navbar__link relative' href='/pages/shop'>SHOP</Link>
+            <Link className='navbar__link relative' href='/pages/faqs'>FAQS</Link>
+            <Link className='navbar__link relative' href='/pages/contact'>CONTACT</Link>
+            <Link className='navbar__link relative' href='/pages/my-account'>MY ACCOUNT</Link>
+            <Link className='navbar__link relative' href='/pages/blog'>BLOG</Link>
         </div>
 
 
