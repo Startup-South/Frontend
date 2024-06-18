@@ -27,7 +27,10 @@ export default function RootLayout({
         <HeaderMain />
         {/*<Navbar />*/}
         {children}
+<<<<<<< HEAD
         <br /><br /><br /><br /><br /><br /> 
+=======
+>>>>>>> 9f62ce009674dfabd2a6f5cf3fbf64d9b8ee5e3a
         <Footer />
       </body>
     </html>

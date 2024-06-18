@@ -15,12 +15,17 @@ const HeaderMain = () => {
     <div style={Styles} className='border-0093ff py-6'>
       <div className='container sm:flex justify-between items-center'>
         <div className='font-bold text-4xl text-center pb-4 sm:pb-0 text-blackish'>
+<<<<<<< HEAD
         <a href="/" class="">
+=======
+        <a href="#">
+>>>>>>> 9f62ce009674dfabd2a6f5cf3fbf64d9b8ee5e3a
             <img className='h-12 w-auto' src="/Logo4.png" alt=""/>
         </a>
         </div>
 
 
+<<<<<<< HEAD
         <div className='flex items-center w-fit gap-10 mx-auto font-bold py-4 text-white space-x-5'>
           <Link className='navbar__link relative' href='/'>HOME</Link>
           <Link className='navbar__link relative' href='/pages/shop'>SHOP</Link>
@@ -28,6 +33,15 @@ const HeaderMain = () => {
           <Link className='navbar__link relative' href='/pages/contact'>CONTACT</Link>
           <Link className='navbar__link relative' href='/pages/my-account'>MY ACCOUNT</Link>
           <Link className='navbar__link relative' href='/pages/blog'>BLOG</Link>
+=======
+          <div className='flex items-center w-fit gap-10 mx-auto font-bold py-4 text-white space-x-5'>
+             <Link className='navbar__link relative' href='/'>HOME</Link>
+            <Link className='navbar__link relative' href='/pages/shop'>SHOP</Link>
+            <Link className='navbar__link relative' href='/pages/faqs'>FAQS</Link>
+            <Link className='navbar__link relative' href='/pages/contact'>CONTACT</Link>
+            <Link className='navbar__link relative' href='/pages/my-account'>MY ACCOUNT</Link>
+            <Link className='navbar__link relative' href='/pages/blog'>BLOG</Link>
+>>>>>>> 9f62ce009674dfabd2a6f5cf3fbf64d9b8ee5e3a
         </div>
 
 

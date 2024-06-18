@@ -4,6 +4,7 @@ import React from 'react';
 const Faqs: React.FC = () => {
   return (
     <main>
+<<<<<<< HEAD
       <div className='container pt-4'>
         <div className='grid__item medium-up--five-sixths medium-up--push-one-twelfth'> <br /><br />
           <h1 className="text-4xl font-bold mb-8 text-center">FAQs</h1>
@@ -25,6 +26,10 @@ const Faqs: React.FC = () => {
         </div>
       </div>
       
+=======
+      <h1 className="text-4xl font-bold mb-8">Faqs</h1>
+      <p>Welcome to the faqs page</p>
+>>>>>>> 9f62ce009674dfabd2a6f5cf3fbf64d9b8ee5e3a
       {/* Ajoutez ici vos composants ou contenu spécifiques pour la page faqs */}
     </main>
   );

@@ -10,8 +10,12 @@ export default function Home() {
       <Hero /> <br /><br />
       <NewProducts /> 
       <Step />
+<<<<<<< HEAD
      {/*<Footer />*/}
      <Logo />
+=======
+     {/* <Footer />*/}
+>>>>>>> 9f62ce009674dfabd2a6f5cf3fbf64d9b8ee5e3a
     </main>
   );
 }
