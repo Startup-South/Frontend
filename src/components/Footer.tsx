@@ -35,8 +35,8 @@ const Footer = () => {
         <ul>
             <p className='text-gray-800 font-bold text-2xl pb-4'>Support</p>
             <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/my-account'>My account</a></li>
-            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'><a href='/account/login'>Account details</a></li>
-            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'><a href='/account/login'>Order history</a></li>
+            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/account-details'>Account details</a></li>
+            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/order-history'>Order history</a></li>
             <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/contact'>Contact</a></li>
             <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/blog'>Blog</a></li>
             <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/search'>Search</a></li>

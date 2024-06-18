@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
     <div style={Styles} className='hidden sm:block'>
       <div className='container'>
         <div className='flex w-fit gap-10 mx-auto font-bold py-4 text-blackish'>
-            <Link className='navbar__link relative' href='#'>HOME</Link>
+            <Link className='navbar__link relative' href='/'>HOME</Link>
             <Link className='navbar__link relative' href='/pages/shop'>SHOP</Link>
             <Link className='navbar__link relative' href='/pages/faqs'>FAQS</Link>
             <Link className='navbar__link relative' href='/pages/contact'>CONTACT</Link>

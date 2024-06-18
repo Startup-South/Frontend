@@ -28,4 +28,9 @@
 .navbar__link:hover::after{
   scale: 1;
 }
+/* styles/globals.css */
+.text-justify {
+  text-align: justify;
+}
+
 }
