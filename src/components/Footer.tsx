@@ -22,24 +22,24 @@ const Footer = () => {
       <div className='p-5'>
         <ul>
             <p className='text-gray-800 font-bold text-2xl pb-4'>Our policies</p>
-            <li className='text-gray-500 text-md pb-2 font-semibold hover:text-black cursor-pointer'>Terms of Sale</li>
-            <li className='text-gray-500 text-md pb-2 font-semibold hover:text-black cursor-pointer'>Privacy Policy</li>
-            <li className='text-gray-500 text-md pb-2 font-semibold hover:text-black cursor-pointer'>Return Policy</li>
-            <li className='text-gray-500 text-md pb-2 font-semibold hover:text-black cursor-pointer'>Refund Policy</li>
-            <li className='text-gray-500 text-md pb-2 font-semibold hover:text-black cursor-pointer'>Shipping Policy</li>
-            <li className='text-gray-500 text-md pb-2 font-semibold hover:text-black cursor-pointer'>Payment Method</li>
-            <li className='text-gray-500 text-md pb-2 font-semibold hover:text-black cursor-pointer'>Disclaimer</li>
+            <li className='text-gray-500 text-md pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/terms-of-sale'>Terms of Sale</a></li>
+            <li className='text-gray-500 text-md pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/privacy-policy'>Privacy Policy</a></li>
+            <li className='text-gray-500 text-md pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/return-policy'>Return Policy</a></li>
+            <li className='text-gray-500 text-md pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/refund-policy'>Refund Policy</a></li>
+            <li className='text-gray-500 text-md pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/shipping-policy'>Shipping Policy</a></li>
+            <li className='text-gray-500 text-md pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/payment-method'>Payment Method</a></li>
+            <li className='text-gray-500 text-md pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/disclaimer'>Disclaimer</a></li>
         </ul>
       </div>
       <div className='p-5'>
         <ul>
             <p className='text-gray-800 font-bold text-2xl pb-4'>Support</p>
-            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'>My account</li>
-            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'>Account details</li>
-            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'>Order history</li>
-            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'>Contact</li>
-            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'>Blog</li>
-            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'>Search</li>
+            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/my-account'>My account</a></li>
+            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'><a href='/account/login'>Account details</a></li>
+            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'><a href='/account/login'>Order history</a></li>
+            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/contact'>Contact</a></li>
+            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/blog'>Blog</a></li>
+            <li className='text-gray-500 text-mb pb-2 font-semibold hover:text-black cursor-pointer'><a href='/pages/search'>Search</a></li>
         </ul>
       </div>
       <div className='p-5'>
@@ -50,7 +50,7 @@ const Footer = () => {
       </div>
     </div>
     <div className='flex flex-col justify-center items-center text-center bg-gray-200'>
-        <h1 className='text-gray-800 text-center'>© 2024, Corten+ LLC. Tous droits réservés.</h1></div>
+        <h1 className='text-gray-800 text-center'>© 2024, Corten+ LLC. All rights reserved.</h1></div>
     </>
     
   );

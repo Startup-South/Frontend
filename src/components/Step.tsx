@@ -10,7 +10,7 @@ const Step = () => {
             <h4 className='text-center font-medium text-2xl pb-4'>
             STEP-BY-STEP
             </h4>
-            <div className='mt-12 grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-3 gap-10 xl:gap-x-20 xl:gap-y-10 rounded-sm'>
+            <div className='mt-12 grid sm:grid-cols-3'>
                 <div className='border border-white rounded-2xl grid place-items-center p-6 lg:p-0'>
                     <div className='flex flex-col items-center gap-1'>
                         <Image 
