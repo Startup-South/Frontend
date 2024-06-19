@@ -10,7 +10,7 @@ const ReturnPolicy: React.FC = () => {
       <p>In order to start the return process, you must first download our form at the following link: Download</p><br/>
       <p>On this form, it is necessary to fill in all the information:</p><br/>
       <ul>
-         <li> Order Date</li>
+         <li>Order Date</li>
          <li>Order Number</li>
          <li>Total Order Amount</li>
          <li>Items concerned by the request</li>
