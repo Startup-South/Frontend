@@ -19,6 +19,8 @@ const Faqs: React.FC = () => {
       <p> <strong>11. How can I get an invoice for my order?  </strong>The invoice for your order is always sent with your package. If you have lost it, you can also send us an email to receive a copy.</p><br /> 
       <p> <strong>12. I can't find my question in the list, what should I do? </strong>Send us an email to <b><a href='/'>contact@corten.plus</a></b>, and we will respond as soon as possible.</p><br /> <br /><br />
       </div>
+
+
       {/* Ajoutez ici vos composants ou contenu spécifiques pour la page faqs */}
     </main>
   );

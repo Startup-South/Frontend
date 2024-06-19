@@ -50,7 +50,7 @@ const Footer = () => {
       </div>
     </div>
     <div className='flex flex-col justify-center items-center text-center bg-gray-200'>
-        <h1 className='text-gray-800 text-center'>© 2024, Corten+ LLC. Tous droits réservés.</h1></div>
+        <h1 className='text-gray-800 text-center'>© 2024, Corten+ LLC. All rights reserved.</h1></div>
     </>
     
   );
