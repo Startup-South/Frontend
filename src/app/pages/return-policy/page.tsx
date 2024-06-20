@@ -4,10 +4,10 @@ import React from 'react';
 const ReturnPolicy: React.FC = () => {
   return (
     <main>
-    <div className='container pt-20 lg:pt-0 color-white'><br/>
+    <div className='container pt-20 lg:pt-0 color-white pl-32 pr-32'><br/>
       <h1 className="text-center text-4xl font-bold mb-8 pt-6">Return policy</h1><br/>
       <p><b>Action Required to Initiate a Return</b></p><br/>
-      <p>In order to start the return process, you must first download our form at the following link: Download</p><br/>
+      <p>In order to start the return process, you must first download our form at the following link:<a href=''>Download</a></p><br/>
       <p>On this form, it is necessary to fill in all the information:</p><br/>
       <ul>
          <li>Order Date</li>

@@ -4,7 +4,7 @@ import React from 'react';
 const PrivacyPolicy: React.FC = () => {
   return (
     <main>
-     <div className='container pt-20 lg:pt-0 color-white'><br/>
+     <div className='container pt-20 lg:pt-0 color-white pl-32 pr-32'><br/>
       <h1 className=" text-center text-4xl font-bold mb-8 pt-6">Privacy policy</h1><br/>
       <p><b>Article 1. Presentation of the site</b></p><br/>
       <p>It is specified to users of the website the identity of the various stakeholders in the context of its realization and its follow-up :</p><br/>

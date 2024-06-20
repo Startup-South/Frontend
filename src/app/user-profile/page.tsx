@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 
-const MyAccount: React.FC = () => {
+const UserProfile: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -69,4 +69,4 @@ const MyAccount: React.FC = () => {
   );
 };
 
-export default MyAccount;
+export default UserProfile;

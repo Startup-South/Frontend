@@ -4,7 +4,7 @@ import React from 'react';
 const TermsSale: React.FC = () => {
   return (
     <main>
-    <div className='container pt-20 lg:pt-0 color-white'><br/>
+    <div className='container pt-20 lg:pt-0 color-white pl-32 pr-32'><br/>
       <h1 className="text-center text-4xl font-bold mb-8 pt-6">Terms of sale</h1>
       <p>These conditions of sale are concluded on the one hand by the company Corten+ LLC with a share capital of 100,000 USD whose head office is located at 192 Bear Christiana Rd #2123, Bear, DE 19701, United States of America, registered in the Commercial Register of Delaware under the number 2515631 and managing the website and, on the other hand, by any legal person wishing to make a purchase via the website hereinafter referred to as "the buyer".</p><br/>
       <p><b>Article 1. Object </b></p><br/>

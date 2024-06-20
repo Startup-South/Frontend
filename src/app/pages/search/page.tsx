@@ -1,12 +1,38 @@
-// app/search/page.tsx
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
 
 const Search: React.FC = () => {
+  const [query, setQuery] = useState('');
+
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setQuery(event.target.value);
+  };
+
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    // Traitez la soumission du formulaire ici, par exemple, en redirigeant ou en effectuant une recherche
+    console.log('Search query:', query);
+  };
+
   return (
     <main>
-      <h1 className="text-4xl font-bold mb-8">Search</h1>
-      <p>Welcome to the Search page</p>
+      <div className='text-center container pt-20 lg:pt-0 color-white pl-32 pr-32'><br/>
+      <h1 className="text-center text-3xl pt-14">SEARCH OUR SITE</h1><br/>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          value={query}
+          onChange={handleInputChange}
+          placeholder="search"
+          className="border border-black p-2 mr-0 color-white"
+        />
+        <button type="submit" className="bg-blue-500 text-white p-2">
+          SUBMIT
+        </button>
+      </form>
       {/* Ajoutez ici vos composants ou contenu spécifiques pour la page search */}
+      </div>
+      <br/><br/><br/><br/>
     </main>
   );
 };
