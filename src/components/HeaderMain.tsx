@@ -38,23 +38,24 @@ const HeaderMain = () => {
         </div>
 
 
-        <div className='lg:justify-end'>
-            <input type="text" id='search' className='relative peer z-10 bg-transparent w-12 h-12 border rounded-full cursor-pointer outline-none pl-12 focus:w-full focus:border-black focus:cursor-text focus:pl-16 focus:pr-4' placeholder='Search...' />
-            
-        </div>
-  <div className='hidden lg:flex gap-4 text-white text-[30px] cursor-pointer'>
-     <a href="/user-profile" className='flex items-center'>
-       <CiUser />
-     </a>
-  <div className='relative'>
-    <a href="/cart" className='flex items-center'>
-      <MdOutlineShoppingCart />
-      <div className='bg-red-600 rounded-full absolute top-0 right-0 w-[18px] h-[18px] text-[12px] text-white grid place-items-center translate-x-1 -translate-y-1'>
-       {/* <!-- Vous pouvez ajouter du contenu ici, comme le nombre d'articles dans le panier -->*/}
-  </div>
-  </a>
-  </div>
+        <div className='lg:justify-end relative'>
+    <input type="text" id='search' className='relative z-10 bg-transparent w-12 h-12 border rounded-full cursor-pointer outline-none pl-12 focus:w-full focus:border-black focus:cursor-text focus:pl-16 focus:pr-4' placeholder='Search...' />
+    <i className="fas fa-search absolute top-3 left-4 text-gray-500 peer-focus:text-black"></i>
 </div>
+<div className='hidden lg:flex gap-4 text-white text-[30px] cursor-pointer'>
+    <a href="/user-profile" className='flex items-center'>
+        <CiUser />
+    </a>
+    <div className='relative'>
+        <a href="/cart" className='flex items-center'>
+            <MdOutlineShoppingCart />
+            <div className='bg-red-600 rounded-full absolute top-0 right-0 w-[18px] h-[18px] text-[12px] text-white grid place-items-center translate-x-1 -translate-y-1'>
+                {/* <!-- Vous pouvez ajouter du contenu ici, comme le nombre d'articles dans le panier --> */}
+            </div>
+        </a>
+    </div>
+</div>
+
 
       </div>
     </div>
